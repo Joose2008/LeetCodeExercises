@@ -1,4 +1,4 @@
-# 1. Two Sum
+1. Two Sum
 
 - **Dificultad:** Fácil (Easy)
 - **Plataforma:** [LeetCode #1](https://leetcode.com/problems/two-sum/)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📝 Descripción del Problema
+## Descripción del Problema
 
 Dado un arreglo de números enteros `nums` y un entero `target`, retorna los **índices de los dos números** de modo que sumen `target`.
 
@@ -42,7 +42,7 @@ Salida: [0, 1]
 
 ---
 
-## 💡 Solución 1: Fuerza Bruta (Brute Force)
+## Solución 1: Fuerza Bruta (Brute Force)
 
 ### Explicación:
 Consiste en comparar cada elemento del arreglo con todos los elementos siguientes usando dos bucles anidados (`for`). Para cada par `(nums[i], nums[j])`, se verifica si su suma es igual a `target`.
@@ -56,7 +56,7 @@ Ver [`twoSum.cpp`](twoSum.cpp).
 
 ---
 
-## 🚀 Próxima mejora: Solución Óptima (Hash Map)
+## Próxima mejora: Solución Óptima (Hash Map)
 
 > *Pendiente de implementar.*
 > 

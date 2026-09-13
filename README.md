@@ -1,15 +1,15 @@
-# 🧠 LeetCode & Competitive Programming Solutions (C++)
+# LeetCode & Competitive Programming Solutions (C++)
 
 Repositorio personal con soluciones a problemas de algoritmos y estructuras de datos, organizados por ejercicio con explicaciones y análisis de complejidad.
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 Cada ejercicio se encuentra en su propia carpeta e incluye:
 - El código de la solución en C++ (`.cpp`).
 - Un archivo `README.md` con la descripción del problema, ejemplos y análisis de complejidad temporal y espacial.
 
 
-## 📋 Lista de Ejercicios
+## Lista de Ejercicios
 
 | # | Problema | Dificultad | Solución | Complejidad Temporal | Complejidad Espacial |
 |---|----------|------------|----------|----------------------|----------------------|
@@ -17,7 +17,7 @@ Cada ejercicio se encuentra en su propia carpeta e incluye:
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 - **Lenguaje:** C++ (C++17)
 - **Compilador:** GCC / MinGW (MSYS2 UCRT64)
