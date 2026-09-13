@@ -1,4 +1,4 @@
-1. Two Sum
+# 1. Two Sum
 
 - **Dificultad:** Fácil (Easy)
 - **Plataforma:** [LeetCode #1](https://leetcode.com/problems/two-sum/)
