@@ -1,0 +1,30 @@
+# Archivos compilados y ejecutables
+*.exe
+*.out
+*.app
+
+# Archivos objeto y librerías intermedias
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Carpetas de salida generadas (ej. extensión C/C++ Compile Run)
+output/
+bin/
+build/
+
+# Archivos de depuración y temporales
+*.pdb
+*.ilk
+*.dSYM/
+
+# Configuración local de VS Code
+.vscode/
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
