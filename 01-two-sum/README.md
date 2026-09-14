@@ -56,8 +56,16 @@ Ver [`twoSum.cpp`](twoSum.cpp).
 
 ---
 
-## Próxima mejora: Solución Óptima (Hash Map)
+## 💡 Solución 2: Tabla Hash (Óptima)
 
-> *Pendiente de implementar.*
-> 
-> Usando una tabla hash (`std::unordered_map<int, int>`) es posible reducir la complejidad temporal a **$O(n)$** recorriendo el arreglo una sola vez y buscando si el complemento `target - nums[i]` ya ha sido visto anteriormente.
+### Explicación:
+Recorremos el arreglo una sola vez. En cada paso calculamos el complemento necesario (`complement = target - nums[i]`). Con `num_map.contains(complement)` verificamos si ya vimos ese número antes:
+- Si ya existe, retornamos de inmediato el índice guardado y el actual.
+- Si no existe, guardamos el número actual y su posición en el mapa para futuras consultas.
+
+### Código:
+Ver [`twoSumHashMap.cpp`](twoSumHashMap.cpp).
+
+### Complejidad:
+- **Temporal:** $O(n)$ — Recorre el arreglo una sola vez. Las búsquedas en la tabla hash toman $O(1)$ promedio.
+- **Espacial:** $O(n)$ — Almacena hasta $n$ elementos en la tabla hash en el peor caso.
